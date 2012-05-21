@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/layout_root" android:orientation="horizontal"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:padding="10dp">
+
+
+	<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<TextView android:layout_column="1" android:text="Partenza:"
+			android:padding="3dip" />
+
+		<TextView android:id="@+id/dialogOrarioPartenza"
+			android:text="00:00" android:gravity="right" android:padding="3dip"
+			android:typeface="serif" android:textStyle="bold" />
+	</TableRow>
+	<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<TextView android:layout_column="1" android:text="Arrivo:"
+			android:padding="3dip" />
+
+		<TextView android:id="@+id/dialogOrarioArrivo" android:text="00:00"
+			android:gravity="right" android:padding="3dip" android:typeface="serif"
+			android:textStyle="bold" />
+	</TableRow>
+	<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<TextView android:layout_column="1" android:text="Num. treno:"
+			android:padding="3dip" />
+
+		<TextView android:id="@+id/dialogNumMezzo1" android:text="123"
+			android:gravity="right" android:padding="3dip" android:typeface="serif"
+			android:textStyle="bold" />
+	</TableRow>
+	<TableRow android:id="@+id/TableRow01" android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<TextView android:layout_column="1" android:text="Num. cambi:"
+			android:padding="3dip" />
+
+		<TextView android:id="@+id/dialogNumCambi" android:text="1"
+			android:gravity="right" android:padding="3dip" android:typeface="serif"
+			android:textStyle="bold" />
+	</TableRow>
+</TableLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+ 	<ImageView android:id="@+id/trenoIcon" android:layout_width="48px" android:layout_height="48px" android:src="@drawable/treno_icon" android:layout_alignParentLeft="true" />
+	<TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/listOrarioPartenza"
+		android:textSize="22sp" android:layout_toRightOf="@+id/trenoIcon" android:text="Orario Partenza" android:textStyle="bold"/>
+	<TextView android:layout_width="fill_parent" android:text="Data"
+		android:layout_height="wrap_content" android:id="@+id/listData"
+		android:textSize="14sp"  android:layout_toRightOf="@+id/trenoIcon" android:layout_below="@+id/listOrarioPartenza"
+		android:layout_alignParentBottom="true" />
+	<TextView android:layout_width="wrap_content" android:text="Orario Arrivo"
+		android:layout_height="wrap_content" android:id="@+id/listOrarioArrivo"
+		android:textSize="16sp" android:layout_alignParentRight="true"
+		android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="stazionePartenza">Stazione di partenza</string>
+    <string name="stazioneArrivo">Stazione di arrivo</string>
+    <string name="chiudi">Chiudi</string>
+    <string name="caricamento">Attendere, caricamento in corso...</string>
+    <string name="spinnerLayout">Menu a discesa</string>
+    <string name="autoCompleteLayout">Auto Completamento</string>
+    <string name="search">Cerca</string>
+    <string name="update">Aggiorna</string>
+    <string name="uploadStations">Aggiorna le stazioni</string>
+    <string name="settings">Impostazioni</string>
+    <string name="hello">Benvenuto Vesuviana for Android</string>
+    <string name="app_name">Vesuviana Droid</string>
+    <string name="avvisoNoConnection">Attenzione! Non è presente alcuna connessione, i dati potrebbero essere non aggiornati.</string>
+    <string name="dbException">Database exeption: </string>
+    <string name="connException">Attenzione! Non è presente alcuna connessione, i dati potrebbero essere non aggiornati.</string>
+    <string name="titolo">CircumVesuviana</string>
+    <string name="inserisciData">Data di partenza</string>
+    <string name="inserisciOra">Orario di partenza</string>
+    <string name="sendAction">Invia Messaggio</string>
+    <string name="send">Invia</string>
+    <string name="messageToSend">Prendo la vesuviana delle &lt;PARTENZA&gt; dalla stazione &lt;STAZIONE&gt;</string>
+    <string name="sendMessage">Avvisa con un messaggio</string>
+    <string name="newEvent">Crea un nuovo evento</string>
+    <string name="evento">Evento</string>
+</resources>
